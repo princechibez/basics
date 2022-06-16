@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        main {
+            text-align: center;
+        }
+        header {
+            position: relative;
+            top: 0;
+            left: 0;
+            height: 100px;
+            width: 100%;
+            background-color: rgb(2, 0, 47);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            box-sizing: border-box;
+        }
+        header div {
+            font-size: 2em;
+            font-weight: bolder;
+            padding-left: 20%;
+            box-sizing: border-box;
+            width: 35%;
+        }
+        header nav {
+            width: 65%;
+            position: relative;
+            top: 0;
+            height: 100%;
+        }
+        header nav ul {
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+        header nav ul li {
+            list-style-type: none;
+            margin: 20px;
+            padding-right: 40px;
+            font-size: 1.5em;
+            font-weight: bold;
+            transition: all 0.3s ease-out;
+        }
+        header nav ul li a {
+            text-decoration: none;
+            color: inherit;
+        }
+        header nav ul li:hover {
+            color: rgb(133, 125, 125);
+            transform: scale(1.1);
+        }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div>LOGO</div>
+      <nav>
+        <ul>
+            <li><a href="/home">Home</a></li>
+            <li><a href="contact">Contact</a></li>
+            <li><a href="about">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>This is the Contact page</h1>
+    </main>
+  </body>
+</html>
